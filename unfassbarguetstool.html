@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+	<script>
+    var name 
+    function test(){
+    	var name = document.getElementById("fname").value;
+    	alert("Deine Körpergrösse ist " + name);
+    }
+    </script>
+
+    <style>
+      h1{
+        font-family:monospace ;
+        font-size: 40px;
+      }
+      
+      input{
+         margin: 10px 10px 10px 0px;
+       }
+      input.button{
+        background-color: rgb(250, 59, 11);
+        font-size: 20px;
+      }
+
+    </style>
+
+    <title>Grössen Tool</title>
+</head>
+<body>
+
+<h1>Grössen Berechner</h1>
+
+<form>
+  <label for="fname">Deine Grösse:</label><br>
+  <input type="text" id="fname" name="fname" value="Körpergrösse in cm"><br>
+  <input class="button" type="submit" onclick="test()" value="Submit">
+</form> 
+
+<p></p>
+
+</body>
+</html>
